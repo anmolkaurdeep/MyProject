@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Roicians]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestN(failed)">
+    <classes>
+      <class name="seleniumpackage.Testngg">
+        <methods>
+          <include name="Closebrowser"/>
+          <include name="typeinvalidfname"/>
+          <include name="openbrowser"/>
+          <include name="typefname_validdate"/>
+        </methods>
+      </class> <!-- seleniumpackage.Testngg -->
+    </classes>
+  </test> <!-- TestN(failed) -->
+  <test thread-count="5" name="Softassert(failed)">
+    <classes>
+      <class name="seleniumpackage.Testngg">
+        <methods>
+          <include name="Closebrowser"/>
+          <include name="typeinvalidfname"/>
+          <include name="openbrowser"/>
+          <include name="typefname_validdate"/>
+        </methods>
+      </class> <!-- seleniumpackage.Testngg -->
+    </classes>
+  </test> <!-- Softassert(failed) -->
+</suite> <!-- Failed suite [TestNg Roicians] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestN(failed)">
+    <classes>
+      <class name="seleniumpackage.TestingSelenium">
+        <methods>
+          <include name="gettitle"/>
+          <include name="display"/>
+          <include name="before"/>
+          <include name="driversetup"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- seleniumpackage.TestingSelenium -->
+    </classes>
+  </test> <!-- TestN(failed) -->
+  <test thread-count="5" name="Softassert(failed)">
+    <classes>
+      <class name="seleniumpackage.TestingSelenium">
+        <methods>
+          <include name="gettitle"/>
+          <include name="display"/>
+          <include name="before"/>
+          <include name="driversetup"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- seleniumpackage.TestingSelenium -->
+    </classes>
+  </test> <!-- Softassert(failed) -->
+</suite> <!-- Failed suite [Amazon] -->
